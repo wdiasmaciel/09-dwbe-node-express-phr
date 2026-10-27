@@ -85,12 +85,12 @@ npm install express
 
 ---
 
-## Servidor
+## Servidor 01
 
 Criar o arquivo:
 
 ```jsx
-server.js
+01-server.js
 ```
 
 ```js
@@ -110,7 +110,7 @@ app.listen(3000, () => {
 Executar o servidor:
 
 ```bash
-node server.js
+node 01-server.js
 ```
 
 Abrir no navegador:
@@ -123,4 +123,31 @@ Resposta:
 
 ```text
 API funcionando!
+```
+---
+
+## Servidor 02
+
+Criar o arquivo:
+
+```jsx
+02-server.js
+```
+
+```js
+const express = require("express");
+
+const app = express();
+
+app.use(express.json());
+
+app.get("/", (req, res) => {
+  res.json({
+    mensagem: "API funcionando",
+  });
+});
+
+app.listen(3000, () => {
+  console.log("Servidor rodando na porta 3000");
+});
 ```
