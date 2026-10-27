@@ -183,9 +183,30 @@ Atualizar o arquivo `package.json` adicionando a diretiva `dev1` e `dev2`:
 ```json
 "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev1" : "node --watch 01-server.js"
+    "dev1" : "node --watch 01-server.js",
     "dev2" : "node --watch 02-server.js"
   }
+```
+
+```json
+{
+  "name": "api-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev1": "node --watch 01-server.js",
+    "dev2": "node --watch 02-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
 ```
 
 Executar novamente os servidores digitando no terminal:
