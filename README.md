@@ -225,6 +225,8 @@ Instale a extensão `Rest Client` no `VS Code`:
 
 ![Rest Client](restclient.png)
 
+Crie o arquivo `teste.http`:
+
 
 ## Exercício
 

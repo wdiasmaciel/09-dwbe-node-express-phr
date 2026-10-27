@@ -1,0 +1,5 @@
+### Servidor 01 (porta 3000)
+GET http://localhost:3000/
+
+### Servidor 02 (porta 3001)
+GET http://localhost:3001/
