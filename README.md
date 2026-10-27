@@ -58,6 +58,12 @@ No arquivo `package.json`, substituir ` "type": "commonjs"` por ` "type": "modul
 }
 ```
 
+Instalar o `Express`:
+
+```jsx
+npm install express
+```
+
 ---
 
 ## Servidor
