@@ -167,5 +167,7 @@ http://localhost:3001
 Resposta:
 
 ```text
-mensagem: API funcionando!
+{
+  "mensagem": "API funcionando"
+}
 ```
