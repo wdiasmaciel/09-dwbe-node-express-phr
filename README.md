@@ -60,7 +60,7 @@ No arquivo `package.json`, substituir ` "type": "commonjs"` por ` "type": "modul
 
 Instalar o `Express`:
 
-```jsx
+```bash
 npm install express
 ```
 
@@ -107,3 +107,8 @@ app.listen(3000, () => {
 });
 ```
 
+Executar o servidor:
+
+```bash
+node server.js
+```
