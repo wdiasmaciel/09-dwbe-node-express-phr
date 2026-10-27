@@ -171,3 +171,37 @@ Resposta:
   "mensagem": "API funcionando"
 }
 ```
+
+---
+
+## Atualização Automática do Servidor
+
+Atualização automática do servidor em caso de alteração do arquivo.
+
+Atualizar o arquivo `package.json` adicionando a diretiva `dev1` e `dev2`:
+
+```json
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev1" : "node --watch 01-server.js"
+    "dev2" : "node --watch 02-server.js"
+  }
+```
+
+Executar novamente os servidores digitando no terminal:
+
+```bash
+npm run dev1
+```
+
+```bash
+npm run dev2
+```
+
+## Exercício
+
+Usando Express, crie um servidor que aceite requisições para retornar em formato `JSON`:
+
+1. Os nomes dos cursos de uma universidade.
+2. Os nomes das disciplinas dos cursos.
+3. Os nomes dos alunos matriculados em cada disciplina.
