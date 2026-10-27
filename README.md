@@ -219,6 +219,13 @@ npm run dev1
 npm run dev2
 ```
 
+## Teste
+
+Instale a extensão `Rest Client` no `VS Code`:
+
+![Rest Client](restclient.png)
+
+
 ## Exercício
 
 Usando Express, crie um servidor que aceite requisições para retornar em formato `JSON`:
