@@ -227,6 +227,13 @@ Instale a extensão `Rest Client` no `VS Code`:
 
 Crie o arquivo `teste.http`:
 
+```js
+### Servidor 01 (porta 3000)
+GET http://localhost:3000/
+
+### Servidor 02 (porta 3001)
+GET http://localhost:3001/
+```
 
 ## Exercício
 
