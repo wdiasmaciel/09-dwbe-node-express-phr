@@ -235,3 +235,5 @@ Usando Express, crie um servidor que aceite requisições para retornar em forma
 1. Os nomes dos cursos de uma universidade.
 2. Os nomes das disciplinas dos cursos.
 3. Os nomes dos alunos matriculados em cada disciplina.
+
+Teste a API criando um arquivo `.http` para a extensão `Rest Client`.
