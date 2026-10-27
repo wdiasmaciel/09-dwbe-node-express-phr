@@ -151,3 +151,21 @@ app.listen(3001, () => {
   console.log("Servidor rodando na porta 3001");
 });
 ```
+
+Executar o servidor:
+
+```bash
+node 02-server.js
+```
+
+Abrir no navegador:
+
+```text
+http://localhost:3001
+```
+
+Resposta:
+
+```text
+mensagem: API funcionando!
+```
