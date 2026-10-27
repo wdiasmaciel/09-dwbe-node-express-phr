@@ -94,7 +94,7 @@ server.js
 ```
 
 ```js
-const express = require("express");
+import express from 'express';
 
 const app = express();
 
@@ -111,4 +111,16 @@ Executar o servidor:
 
 ```bash
 node server.js
+```
+
+Abrir no navegador:
+
+```text
+http://localhost:3000
+```
+
+Resposta:
+
+```text
+API funcionando!
 ```
