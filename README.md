@@ -39,3 +39,32 @@ cd api-express
 ```bash
 npm init -y
 ```
+
+No arquivo `package.json`, substituir ` "type": "commonjs"` por ` "type": "module"`:
+
+```text
+{
+  "name": "api-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
+```
+
+---
+
+## Servidor
+
+Criar o arquivo:
+
+```jsx
+server.js
+```
+
